@@ -1,0 +1,240 @@
+    1  curl -s 'https://api.macapps.link/en/firefox-chrome' | sh
+    2  gcc
+    3  xcode --version
+    4  conda
+    5  nano test.py
+    6  xcode-select --version
+    7  xcode-select --version
+    8  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+    9  which g++
+   10  brew install wget
+   11  sudo
+   12  sudo brew install wget
+   13  sudo chown -R $(whoami) /usr/local/lib/pkgconfig
+   14  chmod u+w /usr/local/lib/pkgconfig
+   15  brew install wget
+   16  brew install emacs
+   17  brew install git
+   18  brew install nano
+   19  curl https://raw.githubusercontent.com/scopatz/nanorc/master/install.sh | sh
+   20  cd ~/.nanorc
+   21  echo "include $install_path/*.nanorc" >> ~/.nanorc or
+   22  echo "include $install_path/*.nanorc" >> ~/.nanorc
+   23  cat ~/.nanorc
+   24  nano ~/.nanorc
+   25  cat ~/.nanorc
+   26  nano
+   27  bash ~/Downloads/Anaconda3-2019.07-MacOSX-x86_64.sh 
+   28  ls
+   29  cd Downloads
+   30  ls
+   31  Anaconda3-2019.07-MacOSX-x86_64.sh
+   32  ./Anaconda3-2019.07-MacOSX-x86_64.sh
+   33  conda
+   34  conda
+   35  conda
+   36  conda
+   37  conda update
+   38  conda
+   39  wget
+   40  ls
+   41  cd ..
+   42  ls
+   43  ls -allt
+   44  cd info/
+   45  ls
+   46  ls -alt
+   47  nano .bash_profile 
+   48  cd ..
+   49  ls
+   50  cd info
+   51  ls
+   52  nano ./bashrc
+   53  ls
+   54  ls-l
+   55  ls -alt
+   56  cp .bash_profile Desktop
+   57  ls
+   58  pwd
+   59  host miniserve2.cshl.edu 
+   60  nano test.py
+   61  nano /Users/info/.nanorc 
+   62  git clone https://github.com/MareikeJaniak/PFB_ProblemSets.git
+   63  ls
+   64  cd PFB_ProblemSets/
+   65  ls
+   66  man alias
+   67  pwd
+   68  man alias
+   69  alias ls='ls -G'
+   70  ls
+   71  python3
+   72  vi first_python_script.py
+   73  chmod +x first_python_script.py 
+   74  ./first_python_script.py 
+   75  git add first_python_script.py 
+   76  git commit first_python_script.py -m 'added name to print'
+   77  vi first_python_script.py 
+   78  ./first_python_script.py 
+   79  vi first_python_script.py 
+   80  ./first_python_script.py 
+   81  vi first_python_script.py 
+   82  ./first_python_script.py 
+   83  vi first_python_script.py 
+   84  git add first_python_script.py 
+   85  git commit first_python_script.py -m 'added favorite things'
+   86  vi fav_things_sys.py
+   87  chmod +x fav_things_sys.py 
+   88  ./fav_things_sys.py Mareike Maroon Birding Sloths
+   89  git add fav_things_sys.py 
+   90  git commit fav_things_sys.py -m 'added ability to call things from command line'
+   91  vi fav_things_sys.py 
+   92  ./fav_things_sys.py Mareike Maroon Birding Sloths
+   93  vi fav_things_sys.py 
+   94  ./fav_things_sys.py Mareike Maroon Birding Sloths
+   95  git add fav_things_sys.py 
+   96  git commit fav_things_sys.py -m 'added commas as separators'
+   97  git push
+   98  git mv fav_things_sys.py ProblemSets/ProblemSet3/fav_things_sys.py
+   99  git mv fav_things_sys.py ProblemSets/ProblemSet3/
+  100  cd ProblemSets/
+  101  ls
+  102  mkdir ProblemSet3
+  103  cd ..
+  104  git mv fav_things_sys.py ProblemSets/ProblemSet3/
+  105  git commit ProblemSets/ProblemSet3/fav_things_sys.py -m 'moved file to new directory'
+  106  git push
+  107  git mv first_python_script.py 
+  108  git mv first_python_script.py ProblemSets/ProblemSet3/
+  109  git add -A
+  110  git commit -m 'moved files to ProblemSet3'
+  111  git push
+  112  cd
+  113  vi .vimrc
+  114  source .vimrc
+  115  vi PFB_ProblemSets/ProblemSets/ProblemSet3/fav_things_sys.py 
+  116  cd ..
+  117  cd
+  118  vi .vimrc 
+  119  source .vimrc
+  120  ls -a
+  121  vi .bash_profile 
+  122  source .bash_profile 
+  123  ls
+  124  cd PFB_ProblemSets/
+  125  ls
+  126  cd ProblemSets/ProblemSet3
+  127  ./fav_things_sys.py Mareike Maroon Birding Pinkerton
+  128  ./fav_things_sys.py Mareike Maroon Birding Moby&Atticus
+  129  ./fav_things_sys.py Mareike Maroon Birding MobyAndAtticus
+  130  ./fav_things_sys.py Mareike Maroon Birding 'Moby and Atticus'
+  131  cd
+  132  git clone https://github.com/prog4biol/pfb2019.git
+  133  ls
+  134  cd PFB_ProblemSets/
+  135  ls
+  136  cd ProblemSets/
+  137  git mv ProblemSet1/ Unix1/
+  138  git mv ProblemSet2 Unix2/
+  139  git mv ProblemSet3/ Python1/
+  140  ls
+  141  git add -A
+  142  git commit -m 'renamed problem set directories'
+  143  git push
+  144  cd Python1/
+  145  ./fav_things_sys.py Mareike Blue Birding 'Moby and Atticus'
+  146  vi fav_things_sys.py 
+  147  git add fav_things_sys.py 
+  148  git commit fav_things_sys.py -m 'added some comment to code'
+  149  git push
+  150  cd
+  151  git clone https://github.com/MareikeJaniak/MareikeJaniak.github.io
+  152  ls
+  153  cd MareikeJaniak.github.io/
+  154  echo "Hello World" > index.html
+  155  git add --all
+  156  git commit -m 'initial commit'
+  157  git push -u origin master
+  158  cd ../PFB_ProblemSets/ProblemSets/Python1/
+  159  vi fav_things_sys.py 
+  160  cd ../../
+  161  cd ../MareikeJaniak.github.io/
+  162  ls
+  163  vi index.html 
+  164  git add index.html 
+  165  git commit index.html -m 'updated text'
+  166  git push
+  167  cd
+  168  python3
+  169  cd PFB_ProblemSets/
+  170  cd ProblemSets/
+  171  mkdir Python2
+  172  cd Python
+  173  cd Python2/
+  174  vi evaluate_script1.py
+  175  ls
+  176  chmod +x evaluate_script1.py 
+  177  ./evaluate_script1.py 
+  178  git add evaluate_script1.py 
+  179  git commit evaluate_script1.py -m 'added simple if/else statement'
+  180  git push
+  181  vi evaluate_number.py
+  182  chmod +x evaluate_number.py 
+  183  ./evaluate_number.py 
+  184  vi evaluate_number.py
+  185  ./evaluate_number.py 
+  186  vi evaluate_number.py
+  187  ./evaluate_number.py 
+  188  git add evaluate_number.py 
+  189  git commit evaluate_number.py -m 'added test to check if number is positive, negative, or equal to 0'
+  190  git push
+  191  vi evaluate_number.py
+  192  ./evaluate_number.py 
+  193  vi evaluate_number.py
+  194  ./evaluate_number.py 
+  195  vi evaluate_number.py
+  196  ./evaluate_number.py 
+  197  vi evaluate_number.py
+  198  ./evaluate_number.py 
+  199  vi evaluate_number.py
+  200  ./evaluate_number.py 
+  201  vi evaluate_number.py
+  202  ls
+  203  ./evaluate_number.py 
+  204  vi evaluate_number.py
+  205  ./evaluate_number.py 
+  206  git add evaluate_number.py 
+  207  git commit evaluate_number.py -m 'added nested loops'
+  208  git push
+  209  cp evaluate_number.py evaluate_from_command_line.py
+  210  vi evaluate_from_command_line.py 
+  211  chmod +x evaluate_from_command_line.py
+  212  ./evaluate_from_command_line.py 53
+  213  ./evaluate_from_command_line.py 53
+  214  vi evaluate_from_command_line.py 
+  215  ./evaluate_from_command_line.py 53
+  216  vi evaluate_from_command_line.py 
+  217  ./evaluate_from_command_line.py 53
+  218  ./evaluate_from_command_line.py 53
+  219  vi evaluate_from_command_line.py 
+  220  ./evaluate_from_command_line.py 53
+  221  vi evaluate_from_command_line.py 
+  222  ./evaluate_from_command_line.py 53
+  223  vi evaluate_from_command_line.py 
+  224  ./evaluate_from_command_line.py 53
+  225  ./evaluate_from_command_line.py 49
+  226  ./evaluate_from_command_line.py -5
+  227  ./evaluate_from_command_line.py 0
+  228  vi evaluate_from_command_line.py 
+  229  ./evaluate_from_command_line.py 0
+  230  ./evaluate_from_command_line.py 15
+  231  git add evaluate_from_command_line.py 
+  232  git commit evaluate_from_command_line.py -m 'added evaluation of variable entered on command line'
+  233  git push
+  234  cd ..
+  235  ls
+  236  cd ..
+  237  ls
+  238  cd histories/
+  239  ls
+  240  history >> pythonDay1.history.txt
