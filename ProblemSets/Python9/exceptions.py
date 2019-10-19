@@ -9,6 +9,8 @@ file = ''
 try:
 	file = sys.argv[1]
 	print("User provided file: ", file)
+	if not file.endswith(('.fa','.fasta','.nt')):
+		raise ValueError("Not a FASTA file")
 	with open(file, 'r') as fasta:
 		for line in fasta:
 			if '>' in line:
@@ -25,6 +27,8 @@ except IndexError:
 	print('Please provide a file name')
 except IOError:
 	print("Can't find file: ", file)
+except ValueError:
+	print("File needs to be a FASTA file and end with .fasta, .fa, or .nt")
 
 with open('./Python_08.codons-frame-1.nt','w') as output:
 	for gene in codon_dict:
