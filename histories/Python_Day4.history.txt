@@ -1,0 +1,500 @@
+  492  ./datastructure_nucleotide_count.py 
+  493  vi datastructure_nucleotide_count.py
+  494  ./datastructure_nucleotide_count.py 
+  495  vi datastructure_nucleotide_count.py
+  496  ./datastructure_nucleotide_count.py 
+  497  vi datastructure_nucleotide_count.py
+  498  ./datastructure_nucleotide_count.py 
+  499  vi datastructure_nucleotide_count.py
+  500  ./datastructure_nucleotide_count.py 
+  501  vi datastructure_nucleotide_count.py
+  502  ./datastructure_nucleotide_count.py 
+  503  vi datastructure_nucleotide_count.py
+  504  ./datastructure_nucleotide_count.py 
+  505  vi datastructure_nucleotide_count.py
+  506  ./datastructure_nucleotide_count.py 
+  507  vi datastructure_nucleotide_count.py
+  508  ./datastructure_nucleotide_count.py 
+  509  vi datastructure_nucleotide_count.py
+  510  ./datastructure_nucleotide_count.py 
+  511  vi datastructure_nucleotide_count.py
+  512  ./datastructure_nucleotide_count.py 
+  513  vi datastructure_nucleotide_count.py
+  514  ./datastructure_nucleotide_count.py 
+  515  vi datastructure_nucleotide_count.py
+  516  ./datastructure_nucleotide_count.py 
+  517  vi datastructure_nucleotide_count.py
+  518  ./datastructure_nucleotide_count.py 
+  519  vi datastructure_nucleotide_count.py
+  520  ./datastructure_nucleotide_count.py 
+  521  vi datastructure_nucleotide_count.py
+  522  ./datastructure_nucleotide_count.py 
+  523  vi datastructure_nucleotide_count.py
+  524  ./datastructure_nucleotide_count.py 
+  525  vi datastructure_nucleotide_count.py
+  526  ./datastructure_nucleotide_count.py 
+  527  vi datastructure_nucleotide_count.py
+  528  ./datastructure_nucleotide_count.py 
+  529  vi datastructure_nucleotide_count.py
+  530  ./datastructure_nucleotide_count.py 
+  531  vi datastructure_nucleotide_count.py
+  532  ./datastructure_nucleotide_count.py 
+  533  vi datastructure_nucleotide_count.py
+  534  ./datastructure_nucleotide_count.py 
+  535  vi datastructure_nucleotide_count.py
+  536  ./datastructure_nucleotide_count.py 
+  537  vi datastructure_nucleotide_count.py
+  538  ./datastructure_nucleotide_count.py 
+  539  vi datastructure_nucleotide_count.py
+  540  ./datastructure_nucleotide_count.py 
+  541  vi datastructure_nucleotide_count.py
+  542  ./datastructure_nucleotide_count.py 
+  543  vi datastructure_nucleotide_count.py
+  544  vi datastructure_nucleotide_count.py
+  545  ./datastructure_nucleotide_count.py 
+  546  vi datastructure_nucleotide_count.py
+  547  ./datastructure_nucleotide_count.py 
+  548  ./datastructure_nucleotide_count.py 
+  549  vi datastructure_nucleotide_count.py
+  550  ./datastructure_nucleotide_count.py 
+  551  vi datastructure_nucleotide_count.py
+  552  ./datastructure_nucleotide_count.py 
+  553  vi datastructure_nucleotide_count.py
+  554  ./datastructure_nucleotide_count.py 
+  555  wq
+  556  vi datastructure_nucleotide_count.py
+  557  wq
+  558  ./datastructure_nucleotide_count.py 
+  559  vi datastructure_nucleotide_count.py
+  560  ./datastructure_nucleotide_count.py 
+  561  vi datastructure_nucleotide_count.py
+  562  ./datastructure_nucleotide_count.py 
+  563  vi datastructure_nucleotide_count.py
+  564  ./datastructure_nucleotide_count.py 
+  565  vi datastructure_nucleotide_count.py
+  566  vi datastructure_nucleotide_count.py
+  567  vi datastructure_nucleotide_count.py
+  568  ./datastructure_nucleotide_count.py 
+  569  vi datastructure_nucleotide_count.py
+  570  vi Python_08.test.fasta
+  571  vi Python_08.test.fasta
+  572  ./datastructure_nucleotide_count.py 
+  573  vi datastructure_nucleotide_count.py
+  574  ./datastructure_nucleotide_count.py 
+  575  vi datastructure_nucleotide_count.py
+  576  ./datastructure_nucleotide_count.py 
+  577  vi datastructure_nucleotide_count.py
+  578  ./datastructure_nucleotide_count.py 
+  579  vi datastructure_nucleotide_count.py
+  580  ./datastructure_nucleotide_count.py 
+  581  vi datastructure_nucleotide_count.py
+  582  ./datastructure_nucleotide_count.py 
+  583  vi datastructure_nucleotide_count.py
+  584  ./datastructure_nucleotide_count.py 
+  585  vi datastructure_nucleotide_count.py
+  586  ./datastructure_nucleotide_count.py 
+  587  vi datastructure_nucleotide_count.py
+  588  ./datastructure_nucleotide_count.py 
+  589  vi datastructure_nucleotide_count.py
+  590  ./datastructure_nucleotide_count.py 
+  591  vi datastructure_nucleotide_count.py
+  592  ./datastructure_nucleotide_count.py 
+  593  vi datastructure_nucleotide_count.py
+  594  ./datastructure_nucleotide_count.py 
+  595  vi datastructure_nucleotide_count.py
+  596  ./datastructure_nucleotide_count.py 
+  597  vi datastructure_nucleotide_count.py
+  598  ./datastructure_nucleotide_count.py 
+  599  ls
+  600  git add datastructure_nucleotide_count.py 
+  601  git commit datastructure_nucleotide_count.py -m 'added script to store nucleotide comp in nested dictionary'
+  602  git push
+  603  vi codons_first_frame.py
+  604  chmod +x codons_first_frame.py 
+  605  ./codons_first_frame.py 
+  606  vi codons_first_frame.py
+  607  ./codons_first_frame.py 
+  608  vi codons_first_frame.py
+  609  ./codons_first_frame.py 
+  610  vi codons_first_frame.py
+  611  ./codons_first_frame.py 
+  612  vi codons_first_frame.py
+  613  ./codons_first_frame.py 
+  614  vi codons_first_frame.py
+  615  ./codons_first_frame.py 
+  616  vi codons_first_frame.py
+  617  ./codons_first_frame.py 
+  618  vi codons_first_frame.py
+  619  ./codons_first_frame.py 
+  620  vi codons_first_frame.py
+  621  vi codons_first_frame.py
+  622  ./codons_first_frame.py 
+  623  vi codons_first_frame.py
+  624  ./codons_first_frame.py 
+  625  vi codons_first_frame.py
+  626  ./codons_first_frame.py 
+  627  vi codons_first_frame.py
+  628  ./codons_first_frame.py 
+  629  vi codons_first_frame.py
+  630  ./codons_first_frame.py 
+  631  vi codons_first_frame.py
+  632  ./codons_first_frame.py 
+  633  vi codons_first_frame.py
+  634  ./codons_first_frame.py 
+  635  vi codons_first_frame.py
+  636  ./codons_first_frame.py 
+  637  vi codons_first_frame.py
+  638  ./codons_first_frame.py 
+  639  vi codons_first_frame.py
+  640  ./codons_first_frame.py 
+  641  vi codons_first_frame.py
+  642  ./codons_first_frame.py 
+  643  vi codons_first_frame.py
+  644  ./codons_first_frame.py 
+  645  vi codons_first_frame.py
+  646  ./codons_first_frame.py 
+  647  vi codons_first_frame.py
+  648  ./codons_first_frame.py 
+  649  vi codons_first_frame.py
+  650  ./codons_first_frame.py 
+  651  vi codons_first_frame.py
+  652  ./codons_first_frame.py 
+  653  vi codons_first_frame.py
+  654  ./codons_first_frame.py 
+  655  vi codons_first_frame.py
+  656  ./codons_first_frame.py 
+  657  vi codons_first_frame.py
+  658  ./codons_first_frame.py 
+  659  vi codons_first_frame.py
+  660  ./codons_first_frame.py 
+  661  vi codons_first_frame.py
+  662  ./codons_first_frame.py 
+  663  vi codons_first_frame.py
+  664  ./codons_first_frame.py 
+  665  vi codons_first_frame.py
+  666  ./codons_first_frame.py 
+  667  vi codons_first_frame.py
+  668  ./codons_first_frame.py 
+  669  vi codons_first_frame.py
+  670  ./codons_first_frame.py 
+  671  vi codons_first_frame.py
+  672  ./codons_first_frame.py 
+  673  vi codons_first_frame.py
+  674  ./codons_first_frame.py 
+  675  vi codons_first_frame.py
+  676  ./codons_first_frame.py 
+  677  vi codons_first_frame.py
+  678  ./codons_first_frame.py 
+  679  vi codons_first_frame.py
+  680  ./codons_first_frame.py 
+  681  vi codons_first_frame.py
+  682  ./codons_first_frame.py 
+  683  vi codons_first_frame.py
+  684  ./codons_first_frame.py 
+  685  ./codons_first_frame.py 
+  686  vi codons_first_frame.py
+  687  ./codons_first_frame.py 
+  688  clear
+  689  ./codons_first_frame.py 
+  690  vi codons_first_frame.py
+  691  ./codons_first_frame.py 
+  692  vi codons_first_frame.py
+  693  ./codons_first_frame.py 
+  694  vi codons_first_frame.py
+  695  ./codons_first_frame.py 
+  696  vi codons_first_frame.py
+  697  ./codons_first_frame.py 
+  698  vi codons_first_frame.py
+  699  ./codons_first_frame.py 
+  700  vi codons_first_frame.py
+  701  ./codons_first_frame.py 
+  702  vi codons_first_frame.py
+  703  ./codons_first_frame.py 
+  704  vi codons_first_frame.py
+  705  ./codons_first_frame.py 
+  706  vi codons_first_frame.py
+  707  ./codons_first_frame.py 
+  708  vi codons_first_frame.py
+  709  ./codons_first_frame.py 
+  710  vi codons_first_frame.py
+  711  ./codons_first_frame.py 
+  712  vi codons_first_frame.py
+  713  ./codons_first_frame.py 
+  714  vi codons_first_frame.py
+  715  ./codons_first_frame.py 
+  716  vi codons_first_frame.py
+  717  ./codons_first_frame.py 
+  718  vi codons_first_frame.py
+  719  ./codons_first_frame.py 
+  720  vi codons_first_frame.py
+  721  ./codons_first_frame.py 
+  722  ls
+  723  less Python_08.codons-frame-1.nt 
+  724  vi codons_first_frame.py
+  725  less Python_08.codons-frame-1.nt 
+  726  ./codons_first_frame.py 
+  727  vi codons_first_frame.py
+  728  ./codons_first_frame.py 
+  729  vi codons_first_frame.py
+  730  ./codons_first_frame.py 
+  731  vi codons_first_frame.py
+  732  ./codons_first_frame.py 
+  733  vi codons_first_frame.py
+  734  ./codons_first_frame.py 
+  735  vi codons_first_frame.py
+  736  ./codons_first_frame.py 
+  737  less Python_08.codons-frame-1.nt 
+  738  vi codons_first_frame.py
+  739  less Python_08.codons-frame-1.nt 
+  740  vi codons_first_frame.py
+  741  ./codons_first_frame.py 
+  742  less Python_08.codons-frame-1.nt 
+  743  git add codons_first_frame.py 
+  744  git commit codons_first_frame.py -m 'added script to split fasta sequences into codons'
+  745  git push
+  746  vi codons_first_frame.py
+  747  cd ..
+  748  mkdir Python9
+  749  cd Python9/
+  750  cp ../Python8/codons_first_frame.py exceptions.py
+  751  vi exceptions.py 
+  752  chmod +x exceptions.py 
+  753  ./exceptions.py 
+  754  vi exceptions.py 
+  755  ./exceptions.py ../Python8/Python_08.test.fasta 
+  756  ./exceptions.py ../Python_08.test.fasta 
+  757  ./exceptions.py
+  758  git add exceptions.py 
+  759  git commit exceptions.py -m 'added script that includes errors messages'
+  760  git push
+  761  vi exceptions.py 
+  762  ./exceptions.py
+  763  ./exceptions.py ../Python8/Python_08.test.fasta 
+  764  vi exceptions.py 
+  765  ./exceptions.py ../Python8/Python_08.test.fasta 
+  766  ls ../Python8/
+  767  ls ../Python7_RegEx/
+  768  ./exceptions.py ../Python7_RegEx/Python_07_nobody.txt 
+  769  git add exceptions.py 
+  770  git commit exceptions.py -m 'added additional error for file types not ending with fasta extensions'
+  771  git push
+  772  cd ..
+  773  mkdir Python10
+  774  cd Python10/
+  775  vi wrap_60bp_function.py
+  776  chmod wrap_60bp_function.py 
+  777  chmod +x wrap_60bp_function.py 
+  778  ./wrap_60bp_function.py 
+  779  vi wrap_60bp_function.py
+  780  ./wrap_60bp_function.py 
+  781  vi wrap_60bp_function.py
+  782  ./wrap_60bp_function.py 
+  783  vi wrap_60bp_function.py
+  784  ./wrap_60bp_function.py 
+  785  vi wrap_60bp_function.py
+  786  ./wrap_60bp_function.py 
+  787  vi wrap_60bp_function.py
+  788  ./wrap_60bp_function.py 
+  789  vi wrap_60bp_function.py
+  790  ./wrap_60bp_function.py 
+  791  vi wrap_60bp_function.py
+  792  ./wrap_60bp_function.py 
+  793  vi wrap_60bp_function.py
+  794  ./wrap_60bp_function.py 
+  795  vi wrap_60bp_function.py
+  796  ./wrap_60bp_function.py 
+  797  vi wrap_60bp_function.py
+  798  ./wrap_60bp_function.py 
+  799  vi wrap_60bp_function.py
+  800  ./wrap_60bp_function.py 
+  801  vi wrap_60bp_function.py
+  802  ./wrap_60bp_function.py 
+  803  vi wrap_60bp_function.py
+  804  ./wrap_60bp_function.py 
+  805  vi wrap_60bp_function.py
+  806  ./wrap_60bp_function.py 
+  807  vi wrap_60bp_function.py
+  808  ./wrap_60bp_function.py 
+  809  vi wrap_60bp_function.py
+  810  ./wrap_60bp_function.py 
+  811  vi wrap_60bp_function.py
+  812  ./wrap_60bp_function.py 
+  813  vi wrap_60bp_function.py
+  814  ./wrap_60bp_function.py 
+  815  vi wrap_60bp_function.py
+  816  ./wrap_60bp_function.py 
+  817  vi wrap_60bp_function.py
+  818  ./wrap_60bp_function.py 
+  819  vi wrap_60bp_function.py
+  820  ./wrap_60bp_function.py 
+  821  vi wrap_60bp_function.py
+  822  ./wrap_60bp_function.py 
+  823  vi wrap_60bp_function.py
+  824  ./wrap_60bp_function.py 
+  825  vi wrap_60bp_function.py
+  826  clear
+  827  vi wrap_60bp_function.py
+  828  ./wrap_60bp_function.py 
+  829  vi wrap_60bp_function.py
+  830  ./wrap_60bp_function.py 
+  831  vi wrap_60bp_function.py
+  832  ./wrap_60bp_function.py 
+  833  vi wrap_60bp_function.py
+  834  ./wrap_60bp_function.py 
+  835  vi wrap_60bp_function.py
+  836  ./wrap_60bp_function.py 
+  837  vi wrap_60bp_function.py
+  838  git add wrap_60bp_function.py 
+  839  git commit wrap_60bp_function.py -m 'added script to wrap one-line fasta'
+  840  git push
+  841  ls
+  842  vi wrap_60bp_function.py
+  843  vi wrap_60bp_function.py
+  844  ./wrap_60bp_function.py 
+  845  vi wrap_60bp_function.py
+  846  git add wrap_60bp_function.py 
+  847  git commit wrap_60bp_function.py -m 'added ability to wrap multiline dna same length'
+  848  git push
+  849  vi wrap_60bp_function.py
+  850  git push
+  851  ./wrap_60bp_function.py 
+  852  vi wrap_60bp_function.py
+  853  git add wrap_60bp_function.py 
+  854  git commit wrap_60bp_function.py -m 'added width as input for function'
+  855  vi wrap_60bp_function.py
+  856  vi wrap_60bp_function.py
+  857  vi wrap_60bp_function.py
+  858  ./wrap_60bp_function.py 
+  859  vi wrap_60bp_function.py
+  860  ./wrap_60bp_function.py GATGGGATTGGGGTTTTCCCCTCCCATGTGCTCAAGACTGGCGCTAAAAGTTTTGAGCTTCTCAAAAGTCTAGAGCCACCGTCCAGGGAGCAGGTAGCTG 30
+  861  ./wrap_60bp_function.py GATGGGATTGGGGTTTTCCCCTCCCATGTGCTCAAGACTGGCGCTAAAAGTTTTGAGCTTCTCAAAAGTCTAGAGCCACCGTCCAGGGAGCAGGTAGCTG 30
+  862  vi wrap_60bp_function.py
+  863  ./wrap_60bp_function.py GATGGGATTGGGGTTTTCCCCTCCCATGTGCTCAAGACTGGCGCTAAAAGTTTTGAGCTTCTCAAAAGTCTAGAGCCACCGTCCAGGGAGCAGGTAGCTG 30
+  864  vi wrap_60bp_function.py
+  865  ls
+  866  vi test_fasta.fa
+  867  ./wrap_60bp_function.py test_fasta.fa 30
+  868  vi test_fasta.fa
+  869  cp ./wrap_60bp_function.py wrap_fasta_function.py
+  870  vi wrap_fasta_function.py 
+  871  chmod +x wrap_fasta_function.py 
+  872  ./wrap_fasta_function.py 
+  873  ./wrap_fasta_function.py test_fasta.fa 40
+  874  vi wrap_fasta_function.py 
+  875  ./wrap_fasta_function.py test_fasta.fa 40
+  876  vi wrap_fasta_function.py 
+  877  ./wrap_fasta_function.py test_fasta.fa 40
+  878  vi wrap_fasta_function.py 
+  879  ./wrap_fasta_function.py test_fasta.fa 40
+  880  vi wrap_fasta_function.py 
+  881  ./wrap_fasta_function.py test_fasta.fa 40
+  882  vi wrap_fasta_function.py 
+  883  ./wrap_fasta_function.py test_fasta.fa 40
+  884  vi wrap_fasta_function.py 
+  885  ./wrap_fasta_function.py test_fasta.fa 40
+  886  vi wrap_fasta_function.py 
+  887* ./wrap_fasta_function.py test_fasta.fa 
+  888  ./wrap_fasta_function.py test_fasta.fa 80
+  889  ./wrap_fasta_function.py test_fasta.fa 0
+  890  ./wrap_fasta_function.py test_fasta.fa 80
+  891  ./wrap_fasta_function.py test_fasta.fa 80
+  892  ls
+  893  git add wrap_fasta_function.py 
+  894  git commit wrap_fasta_function.py -m 'added script with wrapping function that takes arguments from command line'
+  895  git push
+  896  vi GC_content_function.py
+  897  chmod +x GC_content_function.py 
+  898  ./GC_content_function.py test_fasta.fa 
+  899  vi GC_content_function.py
+  900  ./GC_content_function.py test_fasta.fa 
+  901  vi GC_content_function.py
+  902  ./GC_content_function.py test_fasta.fa 
+  903  vi GC_content_function.py
+  904  ./GC_content_function.py test_fasta.fa 
+  905  vi GC_content_function.py
+  906  ./GC_content_function.py test_fasta.fa 
+  907  git add GC_content_function.py 
+  908  git commit GC_content_function.py -m 'added script with function to calculate GC content'
+  909  git push
+  910  vi reverse_comp_function.py
+  911  chmod +x reverse_comp_function.py 
+  912  ./reverse_comp_function.py test_fasta.fa 
+  913  vi reverse_comp_function.py
+  914  ./reverse_comp_function.py test_fasta.fa 
+  915  vi reverse_comp_function.py
+  916  ./reverse_comp_function.py test_fasta.fa 
+  917  vi reverse_comp_function.py
+  918  ./reverse_comp_function.py test_fasta.fa 
+  919  vi reverse_comp_function.py
+  920  ./reverse_comp_function.py test_fasta.fa 
+  921  vi reverse_comp_function.py
+  922  ./reverse_comp_function.py test_fasta.fa 
+  923  git add reverse_comp_function.py 
+  924  git commit reverse_comp_function.py -m 'added script with function to reverse complement input'
+  925  git push
+  926  ls
+  927  vi pipeline.py
+  928  chmod +x pipeline.py 
+  929  ./pipeline.py 
+  930  cd ../Python7_RegEx/
+  931  ls
+  932  vi find_restriction_sites_and_positions.py 
+  933  vi find_restriction_sites_and_positions.py 
+  934  ./find_restriction_sites_and_positions.py 
+  935  vi find_restriction_sites_and_positions.py 
+  936  ./find_restriction_sites_and_positions.py 
+  937  ./find_restriction_sites.py 
+  938  vi find_restriction_sites_and_positions.py 
+  939  vi find_restriction_sites.py 
+  940  ./find_restriction_sites.py 
+  941  vi find_restriction_sites_and_positions.py 
+  942  ./find_restriction_sites_and_positions.py 
+  943  vi find_restriction_sites_and_positions.py 
+  944  ./find_restriction_sites_and_positions.py 
+  945  vi find_restriction_sites_and_positions.py 
+  946  ./find_restriction_sites_and_positions.py 
+  947  ./find_restriction_sites_and_positions.py | grep '^'
+  948  ./find_restriction_sites_and_positions.py 
+  949  vi find_restriction_sites_and_positions.py 
+  950  ./find_restriction_sites_and_positions.py 
+  951  vi find_restriction_sites_and_positions.py 
+  952  ./find_restriction_sites_and_positions.py 
+  953  vi find_restriction_sites_and_positions.py 
+  954  ./find_restriction_sites.py 
+  955  vi find_restriction_sites_and_positions.py 
+  956  ./find_restriction_sites.py 
+  957  vi find_restriction_sites_and_positions.py 
+  958  ./find_restriction_sites_and_positions.py 
+  959  vi find_restriction_sites_and_positions.py 
+  960  ./find_restriction_sites_and_positions.py 
+  961  vi find_restriction_sites_and_positions.py 
+  962  ./find_restriction_sites_and_positions.py 
+  963  vi find_restriction_sites_and_positions.py 
+  964  ./find_restriction_sites_and_positions.py 
+  965  vi find_restriction_sites_and_positions.py 
+  966  cp find_restriction_sites_and_positions.py find_restriction_sites_and_fragment_lengths.py
+  967  vi find_restriction_sites_and_positions.py 
+  968  ./find_restriction_sites_and_positions.py 
+  969  vi find_restriction_sites_and_fragment_lengths.py 
+  970  chmod +x find_restriction_sites_and_fragment_lengths.py 
+  971  ./find_restriction_sites_and_fragment_lengths.py 
+  972  vi find_restriction_sites_and_fragment_lengths.py 
+  973  ./find_restriction_sites_and_fragment_lengths.py 
+  974  vi find_restriction_sites_and_fragment_lengths.py 
+  975  ./find_restriction_sites_and_fragment_lengths.py 
+  976  vi find_restriction_sites_and_fragment_lengths.py 
+  977  ./find_restriction_sites_and_fragment_lengths.py 
+  978  vi find_restriction_sites_and_fragment_lengths.py 
+  979  ./find_restriction_sites_and_fragment_lengths.py 
+  980  vi find_restriction_sites_and_fragment_lengths.py 
+  981  git add find_restriction_sites*
+  982  git commit find_restriction_sites* -m 'added scripts to find restriction sites and fragment lengths'
+  983  git push
+  984  ls
+  985  git status
+  986  git add -A
+  987  git commit -m 'adding input and output files'
+  988  git push
+  989  ls
+  990  git status
+  991  history > ../../histories/Python_Day4.history.txt
