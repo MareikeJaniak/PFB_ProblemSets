@@ -30,7 +30,15 @@ class DNA_Sequence(object):
 	def fasta_format(self):
 		return('>'+self.name+'\n'+self.sequence)
 
+def compare_SequenceObject(obj1, obj2):                 #function compares two DNA_Sequence objects and returns True if they contain the same name, sequence, and organism
+	obj1_set = {obj1.name, obj1.sequence, obj1.organism}
+	obj2_set = {obj2.name, obj2.sequence, obj2.organism}
+	return obj1_set == obj2_set
+		
+#DNA_Sequence objects
 gene = DNA_Sequence('ATGGACTCATTGGCCAGTC', 'TST1', 'Alouatta palliata')
+dna1 = DNA_Sequence('ATGGACTCATTGGCCAGTC', 'TST1', 'Alouatta palliata')
+dna2 = DNA_Sequence('GTGGACTCATTGGCCAGTC', 'TST1', 'Alouatta palliata')
 
 print(gene.sequence)
 print(gene.name)
@@ -39,3 +47,5 @@ print('length: {}'.format(gene.get_length()))
 print('nucleotide composition: {}'.format(gene.nuc_comp()))
 print('GC content: {:.2%}'.format(gene.gc_content()))
 print(gene.fasta_format())
+
+print('Are the two DNA_Sequence objects the same?',compare_SequenceObject(dna1, dna2))
