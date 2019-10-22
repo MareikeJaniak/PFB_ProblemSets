@@ -1,0 +1,291 @@
+    1  cd PFB_ProblemSets/ProblemSets/
+    2  ls
+    3  mkdir Python11
+    4  cd Python11/
+    5  function_DNA_sequence.py
+    6  vi function_DNA_sequence.py
+    7  chmod +x function_DNA_sequence.py 
+    8  ./function_DNA_sequence.py 
+    9  git add function_DNA_sequence.py 
+   10  git commit function_DNA_sequence.py -m 'added script to create Class for DNA sequences'
+   11  git push
+   12  vi function_DNA_sequence.py
+   13  ./function_DNA_sequence.py 
+   14  vi function_DNA_sequence.py
+   15  ./function_DNA_sequence.py 
+   16  vi function_DNA_sequence.py
+   17  ./function_DNA_sequence.py 
+   18  vi function_DNA_sequence.py
+   19  ./function_DNA_sequence.py 
+   20  vi function_DNA_sequence.py
+   21  ./function_DNA_sequence.py 
+   22  vi function_DNA_sequence.py
+   23  ./function_DNA_sequence.py 
+   24  vi function_DNA_sequence.py
+   25  ./function_DNA_sequence.py 
+   26  vi function_DNA_sequence.py
+   27  ./function_DNA_sequence.py 
+   28  vi function_DNA_sequence.py
+   29  ./function_DNA_sequence.py 
+   30  vi function_DNA_sequence.py
+   31  ./function_DNA_sequence.py 
+   32  vi function_DNA_sequence.py
+   33  ./function_DNA_sequence.py 
+   34  {'C': <built-in method count of str object at 0x100a578e8>, 'A': <built-in method count of str object at 0x100a578e8>, 'T': <built-in method count of str object at 0x100a578e8>, 'G': <built-in method count of str object at 0x100a578e8>}
+   35  vi function_DNA_sequence.py
+   36  ./function_DNA_sequence.py 
+   37  vi function_DNA_sequence.py
+   38  ./function_DNA_sequence.py 
+   39  vi function_DNA_sequence.py
+   40  ./function_DNA_sequence.py 
+   41  vi function_DNA_sequence.py
+   42  ./function_DNA_sequence.py 
+   43  vi function_DNA_sequence.py
+   44  ./function_DNA_sequence.py 
+   45  vi function_DNA_sequence.py
+   46  ./function_DNA_sequence.py 
+   47  vi function_DNA_sequence.py
+   48  ./function_DNA_sequence.py 
+   49  ls
+   50  git add function_DNA_sequence.py 
+   51  git commit function_DNA_sequence.py -m 'added methods to Class for DNA sequences'
+   52  git push
+   53  vi function_DNA_sequence.py
+   54  ./function_DNA_sequence.py 
+   55  vi function_DNA_sequence.py
+   56  ./function_DNA_sequence.py 
+   57  vi function_DNA_sequence.py
+   58  ./function_DNA_sequence.py 
+   59  vi function_DNA_sequence.py
+   60  ./function_DNA_sequence.py 
+   61  vi function_DNA_sequence.py
+   62  ./function_DNA_sequence.py 
+   63  vi function_DNA_sequence.py
+   64  ./function_DNA_sequence.py 
+   65  vi function_DNA_sequence.py
+   66  ./function_DNA_sequence.py 
+   67  vi function_DNA_sequence.py
+   68  ./function_DNA_sequence.py 
+   69  vi function_DNA_sequence.py
+   70  ./function_DNA_sequence.py 
+   71  vi function_DNA_sequence.py
+   72  ./function_DNA_sequence.py 
+   73  vi function_DNA_sequence.py
+   74  ./function_DNA_sequence.py 
+   75  vi function_DNA_sequence.py
+   76  ./function_DNA_sequence.py 
+   77  vi function_DNA_sequence.py
+   78  ./function_DNA_sequence.py 
+   79  vi function_DNA_sequence.py
+   80  ./function_DNA_sequence.py 
+   81  vi function_DNA_sequence.py
+   82  ./function_DNA_sequence.py 
+   83  vi function_DNA_sequence.py
+   84  ./function_DNA_sequence.py 
+   85  git add function_DNA_sequence.py 
+   86  git commit function_DNA_sequence.py -m 'added function to compare two DNA_Sequence objects and return True if they are the same'
+   87  git push
+   88  cd
+   89  ls
+   90  cd PFB_ProblemSets/
+   91  ls
+   92  mkdir Workshops
+   93  cd Workshops/
+   94  mkdir NGS
+   95  cd NGS
+   96  cd
+   97  brew install gnuplot
+   98  wget https://www.dropbox.com/s/zn4m0oqbasg4gal/software.tar.gz
+   99  tar -xzvf software.tar.gz 
+  100  ls
+  101  rm software.tar.gz 
+  102  ls software/
+  103  export PATH=$PWD/software/bin:$PATH;
+  104  wget https://github.com/bredeson/pfb2019/blob/master/workshops/NGS/data/Scerevisiae.fasta.gz
+  105  wget https://github.com/bredeson/pfb2019/blob/master/workshops/NGS/data/Scerevisiae.gff3.gz
+  106  gunzip Scerevisiae.gff3.gz 
+  107  gunzip Scerevisiae.fasta.gz 
+  108  ls
+  109  ls -lh
+  110  head Scerevisiae.fasta.gz 
+  111  wget https://github.com/bredeson/pfb2019/blob/master/workshops/NGS/data/Scerevisiae.fasta.gz?raw=true
+  112  gunzip Scerevisiae.fasta.gz\?raw\=true 
+  113  ls Downloads/
+  114  rm Scerevisiae.*
+  115  mv ~/Downloads/Scerevisiae.fasta.gz .
+  116  gunzip Scerevisiae.fasta.gz 
+  117  head Scerevisiae.fasta 
+  118  mv Downloads/Scerevisiae.gff3.gz .
+  119  gunzip Scerevisiae.gff3.gz 
+  120  ls
+  121  ls -lh
+  122  mv Scerevisiae.* PFB_ProblemSets/Workshops/NGS/
+  123  cd PFB_ProblemSets/Workshops/NGS/
+  124  ls
+  125  mkdir files
+  126  mv Scerevisiae.* files/
+  127  ls
+  128  cd files/
+  129  ls
+  130  bwa index Scerevisiae.fasta 
+  131  samtools faidx Scerevisiae.fasta
+  132  ls
+  133  samtools dict Scerevisiae.fasta > Scerevisiae.dict
+  134  cd ..
+  135  ls
+  136  cd files/
+  137  ls
+  138  mkdir genome
+  139  mkdir fastq
+  140  mv Scerevisiae.* genome/
+  141  cd fastq/
+  142  wget ftp://ftp-trace.ncbi.nih.gov/sra/sra-instant/reads/ByRun/sra/SRR/SRR101/SRR10178655/SRR10178655.sra
+  143  fastq-dump --gzip --split-files --defline-seq '@$sn/$ri' --defline-qual '+' SRR10178655.sra
+  144  cd ..
+  145  mkdir fastqc
+  146  ls
+  147  rm fastqc/
+  148  rmdir fastqc/
+  149  cd ..
+  150  mkdir fastqc
+  151  cd fastqc
+  152  fastqc --threads 2 --extract ../files/fastq/SRR10178655_1.fastq.gz ../files/fastq/SRR10178655_2.fastq.gz 
+  153  fastqc --threads 2 --extract ../files/fastq/SRR10178655_1.fastq.gz ../files/fastq/SRR10178655_2.fastq.gz 
+  154  cd
+  155  brew install java
+  156  brew cask install java
+  157  fastqc --threads 2 --extract ../files/fastq/SRR10178655_1.fastq.gz ../files/fastq/SRR10178655_2.fastq.gz 
+  158  java -version
+  159  cd PFB_ProblemSets/Workshops/NGS/fastqc/
+  160  fastqc --threads 2 --extract ../files/fastq/SRR10178655_1.fastq.gz ../files/fastq/SRR10178655_2.fastq.gz 
+  161* 
+  162  ls
+  163  ls ..
+  164  ls ../files/fastq/
+  165  cd ../files/fastq/
+  166  open -a Safari.app SRR10178655_1_fastqc.html 
+  167  open -a Safari.app SRR10178655_2_fastqc.html 
+  168  cd ../fastq/
+  169  cd
+  170  ls
+  171  cd PFB_ProblemSets/
+  172  cd Workshops/
+  173  ls
+  174  cd NGS/
+  175  ls
+  176  cd files/
+  177  vi adapters.fa
+  178  cd ..
+  179  cd files/
+  180  mkdir trimmed
+  181  cd trimmed/
+  182  which Trimmomatic
+  183  ls ~/software/bin/
+  184  ls ~/software
+  185  ls ~/software/Trimmomatic-0.39/
+  186  java -Xmx500 -jar ~/software/Trimmomatic-0.39/trimmomatic-0.39.jar PE -phred33 -summary ../fastq/SRR10178655.summary ../fastq/SRR10178655_1.fastq.gz ../fastq/SRR10178655_2.fastq.gz SRR10178655_1_passed.fastq.gz SRR10178655_1_failed.fastq.gz SRR10178655_2_passed.fastq.gz SRR10178655_2_failed.fastq.gz MINLEN:100 ILLUMINACLIP:../adapters.fa:2:30:10:2:keepBothReads
+  187  java -Xmx500m -jar ~/software/Trimmomatic-0.39/trimmomatic-0.39.jar PE -phred33 -summary ../fastq/SRR10178655.summary ../fastq/SRR10178655_1.fastq.gz ../fastq/SRR10178655_2.fastq.gz SRR10178655_1_passed.fastq.gz SRR10178655_1_failed.fastq.gz SRR10178655_2_passed.fastq.gz SRR10178655_2_failed.fastq.gz MINLEN:100 ILLUMINACLIP:../adapters.fa:2:30:10:2:keepBothReads
+  188  ls
+  189  cd ..
+  190  ls
+  191  mkdir bwa_out
+  192  cd bwa_out/
+  193  ls
+  194  cd ..
+  195  ls
+  196  rmdir bwa_out/
+  197  ls
+  198  cd ..
+  199  ls
+  200  mkdir bwa_out
+  201  cd bwa_out/
+  202  bwa mem -R '@RG\tID:SRR10178655' ../files/genome/Scerevisiae.fasta ../files/trimmed/SRR10178655_1_passed.fastq.gz ../files/trimmed/SRR10178655_2_passed.fastq.gz | samtools view -b - > SRR10178655.bam
+  203  ls
+  204  samtools sort -m 1g -o SRR10178655.sort.bam SRR10178655.bam 
+  205  ls
+  206  samtools index SRR10178655.sort.bam 
+  207  gatk MarkDuplicates --java-options '-Xmx1G' -MAX-FILE_HANDLES 2000 -I SRR10178655.sort.bam -O SRR10178655.sort.mdup.bam -M SRR10178655.metrics
+  208  ls
+  209  gatk MarkDuplicates --java-options '-Xmx1G' --MAX-FILE_HANDLES 2000 -I SRR10178655.sort.bam -O SRR10178655.sort.mdup.bam -M SRR10178655.metrics
+  210  gatk MarkDuplicates --java-options '-Xmx1G' -MAX-FILE_HANDLES:2000 -I SRR10178655.sort.bam -O SRR10178655.sort.mdup.bam -M SRR10178655.metrics
+  211  gatk MarkDuplicates --java-options '-Xmx1G' --MAX-FILE_HANDLES 2000 -I SRR10178655.sort.bam -O SRR10178655.sort.mdup.bam -M SRR10178655.metrics
+  212  gatk MarkDuplicates --java-options '-Xmx1G' -MAX-FILE_HANDLES 2000 -I SRR10178655.sort.bam -O SRR10178655.sort.mdup.bam -M SRR10178655.metrics
+  213  ls
+  214  ls -a
+  215  ls -a .
+  216  gatk MarkDuplicates --java-options '-Xmx1G' \-MAX-FILE_HANDLES 2000 -I SRR10178655.sort.bam -O SRR10178655.sort.mdup.bam -M SRR10178655.metrics
+  217  gatk MarkDuplicates --java-options '-Xmx1G' clear-MAX-FILE_HANDLES 2000 -I SRR10178655.sort.bam -O SRR10178655.sort.mdup.bam -M SRR10178655.metrics
+  218  clear
+  219  gatk MarkDuplicates --java-options '-Xmx1G' clear-MAX-FILE_HANDLES 2000 -I SRR10178655.sort.bam -O SRR10178655.sort.mdup.bam -M SRR10178655.metrics
+  220  clear
+  221  gatk MarkDuplicates --java-options '-Xmx1G' -MAX-FILE_HANDLES 2000 -I SRR10178655.sort.bam -O SRR10178655.sort.mdup.bam -M SRR10178655.metrics
+  222  clear
+  223  gatk MarkDuplicates --java-options '-Xmx1G' -MAX-FILE_HANDLES 2000 -I SRR10178655.sort.bam -O SRR10178655.sort.mdup.bam -M SRR10178655.metrics
+  224  clear
+  225  gatk MarkDuplicates --java-options '-Xmx1G' -MAX_FILE_HANDLES 2000 -I SRR10178655.sort.bam -O SRR10178655.sort.mdup.bam -M SRR10178655.metrics
+  226  ls
+  227  ls -lh
+  228  ls -a
+  229  ls ..
+  230  ls ../..
+  231  ls ../../..
+  232  ls
+  233  java -jar picard.jar AddOrReplaceReadGroups I=SRR10178655.sort.bam O=SRR10178655.sort.RG.bam RGID=SRR10178655 RGLB=lib1 RGPL=Illumina RGPU=Unit1 RGSM=Yeast
+  234  java -jar picard.jar AddOrReplaceReadGroups I=SRR10178655.sort.bam O=SRR10178655.sort.RG.bam RGID=SRR10178655 RGLB=lib1 RGPL=Illumina RGPU=Unit1 RGSM=Yeast
+  235  history | grep 'export'
+  236  export PATH=$PWD/software/bin:$PATH;
+  237  java -jar picard.jar AddOrReplaceReadGroups I=SRR10178655.sort.bam O=SRR10178655.sort.RG.bam RGID=SRR10178655 RGLB=lib1 RGPL=Illumina RGPU=Unit1 RGSM=Yeast
+  238  java -jar ~/software/bin/picard.jar AddOrReplaceReadGroups I=SRR10178655.sort.bam O=SRR10178655.sort.RG.bam RGID=SRR10178655 RGLB=lib1 RGPL=Illumina RGPU=Unit1 RGSM=Yeast
+  239  The command line looks like this in the new syntax:AddOrReplaceReadGroups -I SRR10178655.sort.bam -O SRR10178655.sort.RG.bam -RGID SRR10178655 -RGLB lib1 -RGPL Illumina -RGPU Unit1 -RGSM Yeast
+  240  java -jar ~/software/bin/picard.jar AddOrReplaceReadGroups -I SRR10178655.sort.bam -O SRR10178655.sort.RG.bam -RGID SRR10178655 -RGLB lib1 -RGPL Illumina -RGPU Unit1 -RGSM Yeast
+  241  java -jar ~/software/bin/picard.jar AddOrReplaceReadGroups I=SRR10178655.sort.bam O=SRR10178655.sort.RG.bam RGID=SRR10178655 RGLB=lib1 RGPL=Illumina RGPU=Unit1 RGSM=Yeast
+  242  ls -lh
+  243  java -jar ~/software/bin/picard.jar AddOrReplaceReadGroups I=SRR10178655.sort.bam O=SRR10178655.sort.RG.bam RGLB=lib1 RGPL=Illumina RGPU=Unit1 RGSM=Yeast
+  244  java -jar ~/software/bin/picard.jar AddOrReplaceReadGroups I=SRR10178655.sort.bam O=SRR10178655.sort.RG.bam RGLB=lib1 RGPL=Illumina RGPU=Unit1 RGSM=1
+  245  java -jar ~/software/bin/picard.jar AddOrReplaceReadGroups -I SRR10178655.sort.bam -O SRR10178655.sort.RG.bam -RGID SRR10178655 -RGLB lib1 -RGPL Illumina -RGPU Unit1 -RGSM Yeast 
+  246  samtools view -H SRR10178655.sort.bam > headers.sam
+  247  vi headers.sam 
+  248  samtools reheader headers.sam SRR10178655.sort.bam > SRR10178655.sort.RG.bam
+  249  history | grep 'MarkDuplicates'
+  250  gatk MarkDuplicates --java-options '-Xmx1G' -MAX_FILE_HANDLES 2000 -I SRR10178655.sort.bam -O SRR10178655.sort.mdup.bam -M SRR10178655.metrics
+  251  gatk MarkDuplicates --java-options '-Xmx1G' -MAX_FILE_HANDLES 2000 -I SRR10178655.sort.RG.bam -O SRR10178655.sort.mdup.bam -M SRR10178655.metrics
+  252  ls -lh
+  253  samtools stats --ref-seq ../files/genome/Scerevisiae.fasta SRR10178655.sort.mdup.bam > SRR10178655.stats
+  254  plot-bamstats -s ../files/genome/Scerevisiae.fasta > Scerevisiae.gc
+  255  plot-bamstats -r Scerevisiae.gc -p SRR10178655 SRR10178655.stats 
+  256  open -a Safari.app SRR10178655.html 
+  257  samtools view -b -f3 -F3852 SRR10178655.sort.mdup.bam > SRR10178655.sort.mdup.proper.bam
+  258  samtools index SRR10178655.sort.mdup.proper.bam 
+  259  gatk HaplotypeCaller --minimum-mapping-quality 30 --min-base-quality-score 20 --read-validation-stringency SILENT --reference ../files/genome/Scerevisiae.fasta --input SRR10178655.sort.mdup.proper.bam --output SRR10178655.vcf
+  260  samtools depth --help
+  261  samtools depth SRR10178655.sort.mdup.proper.bam
+  262  samtools depth --help
+  263  samtools depth SRR10178655.sort.mdup.proper.bam > SRR10178655_depth.tsv
+  264  cat SRR10178655_depth.tsv | cut -f3 | sort | uniq -c
+  265  cat SRR10178655_depth.tsv | cut -f3 | sort | uniq -c | sort -n
+  266  vcftools --recode --recode-INFO-all --stdout --max-missing 1 --minDP 30 --maxDP 60 --vcf SRR10178655.vcf > SRR10178655.filtered.vcf
+  267  less -S SRR10178655.filtered.vcf | head
+  268  grep -v '##' SRR10178655.filtered.vcf | less -S | head
+  269  grep -v '##' SRR10178655.filtered.vcf | head | less -S
+  270  head ../files/genome/Scerevisiae.gff3 
+  271  head -50 ../files/genome/Scerevisiae.gff3 
+  272  cat ../files/genome/Scerevisiae.gff3 | awk '$2=="CDS"
+'
+  273  cat ../files/genome/Scerevisiae.gff3 | awk '$3=="CDS"'
+  274  cat ../files/genome/Scerevisiae.gff3 | awk '$3=="CDS"' > ../files/genome/Scerevisiae.CDS.gff3
+  275  bedtools intersect -h
+  276  ls
+  277  bedtools intersect -a SRR10178655.filtered.vcf -b ../files/genome/Scerevisiae.CDS.gff3 > bedtools.out
+  278  ls
+  279  less bedtools.out 
+  280  less -S bedtools.out 
+  281  cat bedtools.out | wc -l
+  282  less -S bedtools.out | head
+  283  cat SRR10178655.filtered.vcf | wc -l
+  284  cat bedtools.out | grep 'BaseQRankSum' | wc -l
+  285  cat bedtools.out | wc -l
+  286  cat bedtools.out | grep 'GT:AD:DP:GQ' | wc -l
+  287  ls -lh
+  288  cd ..
+  289  ls -lh
+  290  history > ../../histories/NGS_workshop.history.txt
