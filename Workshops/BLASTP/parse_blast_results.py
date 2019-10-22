@@ -23,6 +23,6 @@ for matrix in scoring_matrix:
 
 #print(result_dict)
 
-print('matrix  ','% ident','al_len','evalue',sep='\t')
+print('matrix','% ident','al_len','evalue',sep='\t')
 for matrix in scoring_matrix:
 	print(matrix,result_dict[matrix]['percid'],result_dict[matrix]['alen'],result_dict[matrix]['evalue'], sep='\t')
